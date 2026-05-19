@@ -2538,8 +2538,82 @@
     <script>
       // Register ScrollTrigger plugin
       gsap.registerPlugin(ScrollTrigger);
+ // Memory data - replace placeholder images with your actual images and add your captions
+      const memories = [
+        {
+          image: "1.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: -2,
+          emoji: "🌊",
+        },
+        {
+          image: "2.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: 3,
+          emoji: "🌅",
+        },
+        {
+          image: "3.jpg",
+          caption:
+            "",
+          isGif: true,
+          rotationAngle: -1,
+          emoji: "🚗",
+        },
+        {
+          image: "4.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: 2,
+          emoji: "🍕",
+        },
+        {
+          image: "5.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: -3,
+          emoji: "🏕️",
+        },
+        {
+          image: "7.jpg",
+          caption:
+            "",
+          isGif: true,
+          rotationAngle: 1,
+          emoji: "🎵",
+        },
+        {
+          image: "8.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: -2,
+          emoji: "🏰",
+        },
+        {
+          image: "1.jpg",
+          caption:
+            "",
+          isGif: false,
+          rotationAngle: 2,
+          emoji: "🏖️",
+        },
+        {
+          image: "3.jpg",
+          caption:
+            "",
+          isGif: true,
+          rotationAngle: 3,
+          emoji: "🎂",
+        },
+      ];
 
-    
       // Create confetti elements
       function createConfetti() {
         const confettiContainer = document.getElementById("confetti-container");
